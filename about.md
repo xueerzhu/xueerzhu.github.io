@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I am a senior at UCSC, studying Computer Science: Computer Game Design. 
+I am a senior studying Computer Science: Computer Game Design at UCSC. 
 
 
-Last summer, I was a software engineer intern at Zynga in San Francisco. Before, I served as research assistant and student developer at university computer science labs on different projects.
+In summer 2019, I was a Software Engineer Intern at Zynga, San Francisco. Before, I served as research assistant and student developer on several projects at university computer science labs and computational media department.
 
 
-Working at the intersection of game design and software engineering,  I had the privilege of influencing digital softwares and games used and loved for their educational and entertainment values. These include Zynga's Hit it Rich mobile game, MoleculeView, a VR educational game, and researches on computer science tutoring AI and game assistance AI. 
+My projects can be viewd on ![Glitch](https://glitch.com/@xueerzhu), ![Github](https://github.com/xueerzhu), and of course, my ![portfolio](). 
 
 
 I am seeking full time job opportunities in client tech, gameplay and AI in 2020. 
