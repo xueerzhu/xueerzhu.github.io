@@ -1,0 +1,7 @@
+I"s<p>Middle-earth: Shadow of Mordor’s <a href="https://www.youtube.com/watch?v=p3ShGfJkLcU">Nemesis System</a> innovates around AI and NPC behavior. Admittedly, some part of the game was a bit repetitive and tedious. But the game has a special place in my heart through its well crafted systemic storytelling. It was evident at the very start of the game. During the part where its introducing you to its sneaking mechanics.</p>
+
+<p><img src="/assets/sneaking-tutorial.jpeg" alt="how to sneak" /></p>
+
+<p>Parsing JSON with Ruby is actually extremely easy. All you have to do is have the json gem installed (<code class="highlighter-rouge">gem install json</code>) and call the <code class="highlighter-rouge">JSON.parse</code> method on the JSON data to convert it to ruby hashes. If you look at this small program here, you can see how I have implemented parsing JSON in Ruby.</p>
+
+:ET
