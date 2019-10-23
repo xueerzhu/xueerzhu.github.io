@@ -15,8 +15,8 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-twitter
-      link: "https://twitter.com/xueer_zhu"
+    # - icon: fa-twitter
+    #   link: "https://twitter.com/xueer_zhu"
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/xueerzhu/"
     - icon: fa-github
