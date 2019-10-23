@@ -7,7 +7,7 @@ categories: [design]
 My professor likes to think that Middle-earth: Shadow of Mordor is a systemically speaking flawed game. Its nemesis system innovation revolves around AI and NPC behavior. Admittedly, part of its gameplay were repetitive and tedious. This system has a special place in my heart due to how much of an impact it has in making I feel like my influence in the game was scaled linearly through progression. 
 
 It had my heart with the intro cutscene/tutorial part of the game, especially when it's trying to teach me the sneaking mechanics. 
-![how to sneak](../_images/mordor-sneaking-tutorial)
+![how to sneak](/assets/sneaking-tutorial.jpeg)
 
 
 
