@@ -12,4 +12,5 @@ Last summer, I was a software engineer intern at Zynga in San Francisco. Before,
 
 I am seeking full time job opportunities in client tech, gameplay and AI in 2020. 
 
-email: xzhu54@ucsc.edu , sherryxueerzhu@gmail.com
+email:  xzhu54@ucsc.edu 
+
