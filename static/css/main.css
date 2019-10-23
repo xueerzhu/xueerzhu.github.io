@@ -19,7 +19,7 @@ span.time, span.categories {
   font-size: 18px;
 }
 h1, h2, h3 {
-  color: #292A2C;
+  color: #292a2c;
   font-weight: normal;
 }
 h1 {
@@ -40,7 +40,7 @@ a:hover {
 
 /* Layout */
 .main-layout {
-  background: #3B465C;
+  background: #ADADAD;
 }
 .sidebar-nav {
   margin: 0;
@@ -94,7 +94,7 @@ div.col-sm-3 strong {
 }
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
-  color: #8C8C8C;
+  color: #292a2c;
 }
 
 /* Pagination */
