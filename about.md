@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I am a senior at UCSC, studying Computer Science: Computer Game Design. 
+I am seeking full time job opportunities in client tech, gameplay and AI in 2020. 
 
-email: agus[at]python.web.id
+email: xzhu54@ucsc.edu
