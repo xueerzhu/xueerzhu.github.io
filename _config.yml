@@ -27,9 +27,9 @@ social:
 #   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
+    - text: About
       url: /about/
-    - text: My Projects
+    - text: Projects
       url: /projects/
 
 url: "https://xueerzhu.github.io"
