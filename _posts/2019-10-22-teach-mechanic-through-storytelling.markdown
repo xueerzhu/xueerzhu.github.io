@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Teach gameplay mechanics through storytelling"
-date:   2019-10-22 00:18:23 +0700
+# date:   2019-10-22 00:18:23 +0700
 categories: [design]
 ---
 
@@ -16,6 +16,8 @@ It was evident since the start of the game - during the part where its introduci
 
 
 ![how to sneak](/assets/sneaking-tutorial.jpg)
+
+Similarly, Dishonored 
 
 
 
