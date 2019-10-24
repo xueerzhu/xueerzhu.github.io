@@ -6,23 +6,20 @@ categories: [design]
 ---
 
 
-Middle-earth: Shadow of Mordor's [Nemesis System](https://www.youtube.com/watch?v=p3ShGfJkLcU) innovates around AI and NPC behavior. 
+Besides `Middle-earth: Shadow of Mordor`'s [Nemesis System](https://www.youtube.com/watch?v=p3ShGfJkLcU), something else I love about this game is how things you do fits so well in its narrative. 
 
+For example, it introduces you sneaking mechanics through Talion's tender moment of interaction with his wife:
 
-Admittedly, some part of the gameplay was a bit repetitive and tedious. But the game has a special place in my heart for its well crafted systemic storytelling. 
+![Shadow of Mordor - sneaking tutorial](/assets/sneaking-tutorial.jpg)
 
+If you've played the game or have seen the intro cutscene, you probably would know how much this moment adds to the revenge element of theme. 
 
-It was evident since the start of the game - during the part where its introducing you to its sneaking mechanics. 
+Similarly, let's look at how `Dishonored` teaches its own sneaking mechanic:
 
+![Dishonored - sneaking tutorial](/assets/hide-and-seek-tutorial.jpg)
 
-![how to sneak](/assets/sneaking-tutorial.jpg)
+Under both occasions, I learned the tender lovely side of both characters, besides the hardcore badasses we already expect them to be. 
+The melting of storytelling and gameplay mechanics during the tutorial session of these games are effective, and I'd love to see it more often in games! 
 
-Similarly, Dishonored 
-
-
-
-
-
-<!-- `JSON.parse` -->
 
 
