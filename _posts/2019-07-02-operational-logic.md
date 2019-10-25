@@ -9,11 +9,11 @@ Of all the game design research paper I've read in college, one stood out to me:
 
 It discusses what makes [this game](http://hcsoftware.sourceforge.net/passage/) remarkable. 
 
-Of which, this argument was so refreshing and it still is the best answer to my "`Why do I like Florence and What Remains of Edith Finch but not many other narrative focused video games?`" 
+It's argument on Operational Logic was so refreshing and it still is the best answer to the question I ask myself - "`Why do I like Florence and What Remains of Edith Finch but not many other narrative focused video games?`" 
 
-![operational logic](/assets/passage.png)
+<!-- ![operational logic](/assets/passage.png) -->
 
-So here is the narrative structure I adore:
+So here is my summary of the narrative design in games works well based on the research:
 
 `Navigatioin` = computation algorithm + media communication   
 
