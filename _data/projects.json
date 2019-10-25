@@ -20,5 +20,27 @@
 		"url": "https://astar-game.glitch.me/",
 		"date": "Oct 2019",
 		"tags": ["JavaScript","Procedral Generation"]
+	},
+	{
+		"name": "MoleculeView - Oculus",
+		"image": "",
+		"url": "https://github.com/xueerzhu/MoleculeView-Oculus",
+		"date": "Oct 2017",
+		"tags": ["Unity","VR","C#"]
+	},
+	{
+		"name": "Celeste Assistance AI",
+		"image": "",
+		"url": "https://github.com/xueerzhu/Celeste-Assistance",
+		"date": "Oct 2017",
+		"tags": ["AI","Unity","C#"]
+	},
+	{
+		"name": "Haunted Light",
+		"image": "haunted-light.png",
+		"url": "https://lubin.itch.io/haunted-light",
+		"date": "May 2019",
+		"tags": ["JavaScript","2D"]
 	}
+
 ]
