@@ -9,16 +9,16 @@
 	},
 	{
 		"name": "Flip and Build",
-		"image": "flip-and-build.jpg",
+		"image": "flip-and-build.png",
 		"url": "https://flip-and-build.glitch.me/",
 		"date": "Oct 2019",
-		"tags": ["JavaScript","WebGL"]
+		"tags": ["JavaScript","Procedral Generation"]
 	},
 	{
 		"name": "A* Pathfinding Visualization",
 		"image": "astar.png",
 		"url": "https://astar-game.glitch.me/",
 		"date": "Oct 2019",
-		"tags": ["JavaScript","WebGL"]
+		"tags": ["JavaScript","Procedral Generation"]
 	}
 ]
