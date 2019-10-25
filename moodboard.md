@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: moodboard
 title: MOODBOARD
 permalink: /moodboard/
 ---

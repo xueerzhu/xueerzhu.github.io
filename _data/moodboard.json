@@ -1,0 +1,18 @@
+[
+	{
+		"slug": "space-cookie",
+		"name": "moodboard",
+		"image": "space-cookie.png",
+		"url": "https://space-cookie.glitch.me/",
+		"date": "Oct 2019",
+		"tags": ["JavaScript","WebGL"]
+	},
+	{
+		"name": "moodboard 2",
+		"image": "flip-and-build.png",
+		"url": "https://flip-and-build.glitch.me/",
+		"date": "Oct 2019",
+		"tags": ["JavaScript","Procedral Generation"]
+	},
+
+]
