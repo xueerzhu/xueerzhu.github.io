@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Teach Gameplay through Storytelling"
+title:  "Gameplay Tutorial Hidden in Storytelling"
 # date:   2019-10-22 00:18:23 +0700
 categories: [design]
 ---
