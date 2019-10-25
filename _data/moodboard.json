@@ -3,32 +3,32 @@
 		"slug": "space-cookie",
 		"name": "Mad Max",
 		"image": "mad-max-01.png",
-		"tags": ["Mad Max"]
+		"tags": ["Game Picture"]
 	},
 	{
 		"name": "Mad Max",
 		"image": "mad-max-02.png",
-		"tags": ["Mad Max"]
+		"tags": ["Game Picture"]
     },
     {
 		"name": "Mad Max",
 		"image": "mad-max-03.png",
-		"tags": ["Mad Max"]
+		"tags": ["Game Picture"]
     },
     {
 		"name": "Mad Max",
 		"image": "mad-max-04.png",
-		"tags": ["Mad Max"]
+		"tags": ["Game Picture"]
     },
     {
 		"name": "Mad Max",
 		"image": "mad-max-05.png",
-		"tags": ["Mad Max"]
+		"tags": ["Game Picture"]
     },
     {
 		"name": "Mad Max",
 		"image": "mad-max-06.png",
-		"tags": ["Mad Max"]
+		"tags": ["Game Picture"]
 	}
 
 ]
