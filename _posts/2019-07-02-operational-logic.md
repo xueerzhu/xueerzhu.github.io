@@ -4,12 +4,16 @@ title:  "Operational Logic and a Narrative Structure I Adore"
 # date:   2019-10-22 00:18:23 +0700
 categories: [design]
 ---
+Games Mentioned: 
+[Florence](https://www.youtube.com/watch?v=HPUwFEhgvVA)
+[What Remains of Edith Finch](https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/)
 
 Of all the game design research paper I've read in college, one stood out to me: `Operational Logic and Playable Models`
 
 It discusses what makes [this game](http://hcsoftware.sourceforge.net/passage/) remarkable. 
 
-It's argument on Operational Logic was so refreshing and it still is the best answer to the question I ask myself - "`Why do I like [Florence](https://www.youtube.com/watch?v=HPUwFEhgvVA) and [What Remains of Edith Finch](https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/) but not many other narrative focused video games?`" 
+It's argument on Operational Logic was so refreshing and it still is the best answer to the question I ask myself - "`Why do I like Florence and What Remains of Edith Finch but not many other narrative focused video games?`" 
+
 
 <!-- ![operational logic](/assets/passage.png) -->
 
