@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Teach gameplay mechanics through storytelling"
+title:  "Teach Gameplay through Storytelling"
 # date:   2019-10-22 00:18:23 +0700
 categories: [design]
 ---
