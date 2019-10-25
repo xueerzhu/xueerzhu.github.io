@@ -1,18 +1,34 @@
 [
 	{
 		"slug": "space-cookie",
-		"name": "moodboard",
-		"image": "space-cookie.png",
-		"url": "https://space-cookie.glitch.me/",
-		"date": "Oct 2019",
-		"tags": ["JavaScript","WebGL"]
+		"name": "Mad Max",
+		"image": "mad-max-01.png",
+		"tags": ["Mad Max"]
 	},
 	{
-		"name": "moodboard 2",
-		"image": "flip-and-build.png",
-		"url": "https://flip-and-build.glitch.me/",
-		"date": "Oct 2019",
-		"tags": ["JavaScript","Procedral Generation"]
-	},
+		"name": "Mad Max",
+		"image": "mad-max-02.png",
+		"tags": ["Mad Max"]
+    },
+    {
+		"name": "Mad Max",
+		"image": "mad-max-03.png",
+		"tags": ["Mad Max"]
+    },
+    {
+		"name": "Mad Max",
+		"image": "mad-max-04.png",
+		"tags": ["Mad Max"]
+    },
+    {
+		"name": "Mad Max",
+		"image": "mad-max-05.png",
+		"tags": ["Mad Max"]
+    },
+    {
+		"name": "Mad Max",
+		"image": "mad-max-06.png",
+		"tags": ["Mad Max"]
+	}
 
 ]
