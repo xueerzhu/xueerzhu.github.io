@@ -1,45 +1,387 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Xueer Zhu</title>
+		<meta name="author" content="Xueer Zhu" />
+		<link href='//fonts.googleapis.com/css?family=Lato:300,300italic|Inconsolata' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Xueer Zhu</h1>
+			<h2>Software Engineer</h2>
+		</header>
 
-<div id="home">
-  <h1>{{ site.title }}</h1>
-  <hr />
+    
+    <h2 class="subtitle">A* search algorithm visualization</h2>
+    
+		<section class="map-section">
+			<img id="map" src="imgs/astar.gif" alt="map"/>
+    </section>
+    
+    <section class="github">
+        <span>View on <a href="https://github.com/xueerzhu/Astar-search-visualization">Github</a> 
+          Play on <a href="https://astar-visualization.glitch.me">Glitch</a>
+        </span>
 
-  <ol class="posts">
-    {% for post in paginator.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
-    {% endfor %}
-  </ol>
+    </section>
 
-  <!-- Pagination links -->
-  {% if paginator.total_pages > 1 %}
-    <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-      {% else %}
-        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
+    <h2 class="subtitle">Molevule View (Oculus Rift)</h2>
 
-      <li><a href="/">First</a></li>
+    <section class="map-section">
+      <img id="map" src="imgs/molecule.gif" alt="map"/>
+    </section>
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-        {% endif %}
-      {% endfor %}
+    <section class="github">
+        <span>View on 
+          <a href="https://github.com/xueerzhu/MoleculeView-Oculus">Github</a>
+        </span>
+    </section>
 
-      <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
+    <h2 class="subtitle">Image Mutation</h2>
+    
+		<section class="map-section">
+			<img id="map" src="imgs/dog.gif" alt="map"/>
+    </section>
+    
+    <section class="github">
+        <span>View on <a href="https://github.com/xueerzhu/2048">Github</a> 
+          Play on <a href="https://xueerzhu.com/2048">link</a>
+        </span>
 
-      {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
-      {% else %}
-        <li class="disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
-  {% endif %}
-</div><!-- end #home -->
+    </section>
+
+    <h2 class="subtitle">A small 1024 clone</h2>
+    
+		<section class="map-section">
+			<img id="map" src="imgs/1024.gif" alt="map"/>
+    </section>
+    
+    <section class="github">
+        <span>View on <a href="https://github.com/xueerzhu/2048">Github</a> 
+          Play on <a href="https://xueerzhu.com/2048">link</a>
+        </span>
+
+    </section>
+
+    <h2 class="subtitle">An infinite bridge builder: flip tiles and match colors!</h2>
+
+    <section class="map-section">
+        <img id="map" src="imgs/flipandbuild.gif" alt="map"/>
+    </section>
+
+    <section class="github">
+        <span>View on 
+          <a href="https://github.com/xueerzhu/flip-and-build-game">Github</a>
+        </span>
+        <span>Play on 
+            <a href="https://flip-and-build.glitch.me/">Glitch</a>
+          </span>
+    </section>
+
+    <h2 class="subtitle">Space cookie fest</h2>
+
+    <section class="map-section">
+      <img id="map" src="imgs/cookie.gif" alt="map"/>
+    </section>
+
+    <section class="github">
+        <span>View on 
+          <a href="https://github.com/xueerzhu/space-cookie">Github</a>
+        </span>
+        <span>Play on 
+            <a href="https://space-cookie.glitch.me">Glitch</a>
+          </span>
+    </section>
+
+		<section class="getting-started">
+			<h2>Getting started</h2>
+			<h3>-- from the top of d3.js --</h3>
+			<div id="example"></div>
+			<pre><code>var svg = d3.select("#example")
+  .append("svg");
+
+var t = textures.lines()
+  .thicker();
+
+svg.call(t);
+
+svg.append("circle")
+	.style("fill", t.url());</code></pre>
+		</section>
+
+		<section class="lines">
+			<h2>Lines</h2>
+
+			<figure data="box1">
+				<div class="box"></div>
+				<pre><code>textures.lines();</code></pre>
+			</figure>
+
+			<figure data="box2">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .heavier();</code></pre>
+			</figure>
+
+			<figure data="box3">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .lighter();</code></pre>
+			</figure>
+
+			<figure data="box3_1">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .thicker();</code></pre>
+			</figure>
+
+			<figure data="box3_2">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .thinner();</code></pre>
+			</figure>
+
+			<figure data="box4">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .heavier(10)
+  .thinner(1.5);</code></pre>
+			</figure>
+
+			<figure data="box5">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .size(4)
+  .strokeWidth(1);</code></pre>
+			</figure>
+
+			<figure data="box6">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .size(8)
+  .strokeWidth(2);</code></pre>
+			</figure>
+
+			<figure data="box7">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .orientation("vertical")
+  .strokeWidth(1)
+  .shapeRendering("crispEdges");</code></pre>
+			</figure>
+
+			<figure data="box8">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .orientation("3/8")
+  .stroke("darkorange");</code></pre>
+			</figure>
+
+			<figure data="box9">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .orientation("3/8", "7/8")
+  .stroke("darkorange");</code></pre>
+			</figure>
+
+			<figure data="box10">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .orientation("vertical", "horizontal")
+  .size(4)
+  .strokeWidth(1)
+  .shapeRendering("crispEdges")
+  .stroke("darkorange");</code></pre>
+			</figure>
+
+			<figure data="box11">
+				<div class="box"></div>
+				<pre><code>textures.lines()
+  .orientation("diagonal")
+  .size(40)
+  .strokeWidth(26)
+  .stroke("darkorange")
+  .background("firebrick");</code></pre>
+			</figure>
+		</section>
+
+		<section class="categories">
+			<h2>
+				Colors and textures can be combined<br> to have further levels of selection
+			</h2>
+			<div id="categories"></div>
+		</section>
+
+		<section class="circles">
+			<h2>Circles</h2>
+
+			<figure data="box12">
+				<div class="box"></div>
+				<pre><code>textures.circles();</code></pre>
+			</figure>
+
+			<figure data="box12_1">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .heavier();</code></pre>
+			</figure>
+
+			<figure data="box12_2">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .lighter();</code></pre>
+			</figure>
+
+			<figure data="box12_3">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .thicker();</code></pre>
+			</figure>
+
+			<figure data="box12_4">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .thinner();</code></pre>
+			</figure>
+
+			<figure data="box14">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .complement();</code></pre>
+			</figure>
+
+			<figure data="box13">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .size(5);</code></pre>
+			</figure>
+
+			<figure data="box15">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .radius(4);</code></pre>
+			</figure>
+
+			<figure data="box16">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .radius(4)
+  .fill("transparent")
+  .strokeWidth(2);</code></pre>
+			</figure>
+
+			<figure data="box17">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .radius(4)
+  .fill("darkorange")
+  .strokeWidth(2)
+  .stroke("firebrick")
+  .complement();</code></pre>
+			</figure>
+
+			<figure data="box18">
+				<div class="box"></div>
+				<pre><code>textures.circles()
+  .size(10)
+  .radius(2)
+  .fill("firebrick")
+  .background("darkorange");</code></pre>
+			</figure>
+		</section>
+
+		<section class="usa">
+			<h2>Textures of increasing size can represent an order relation</h2>
+			<img id="usa" src="imgs/us.pic.png" alt="map"/>
+		</section>
+
+		<section class="paths">
+			<h2>Paths</h2>
+
+			<figure data="box22">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("hexagons")
+  .size(8)
+  .strokeWidth(2)
+  .stroke("darkorange");</code></pre>
+			</figure>
+
+			<figure data="box23">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("crosses")
+  .lighter()
+  .thicker();</code></pre>
+			</figure>
+
+			<figure data="box24">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("caps")
+  .lighter()
+  .thicker()
+  .stroke("darkorange");</code></pre>
+			</figure>
+
+			<figure data="box25">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("woven")
+  .lighter()
+  .thicker();</code></pre>
+			</figure>
+
+			<figure data="box26">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("waves")
+  .thicker()
+  .stroke("firebrick");</code></pre>
+			</figure>
+
+			<figure data="box27">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("nylon")
+  .lighter()
+  .shapeRendering("crispEdges");</code></pre>
+			</figure>
+
+			<figure data="box28">
+				<div class="box"></div>
+				<pre><code>textures.paths()
+  .d("squares")
+  .stroke("darkorange");</code></pre>
+			</figure>
+		</section>
+
+		<section class="custom">
+			<h2>Create custom patterns</h2>
+			<div id="legend"></div>
+			<pre><code>var t = textures.paths()
+  .d(s =>
+    `M 0,${s * 3 / 4} 
+    l ${s / 2},${-s / 2} 
+    l ${s / 2},${s / 2}`
+  )
+  .size(20)
+  .strokeWidth(1)
+  .thicker(2)
+  .stroke("darkorange");</code></pre>
+		</section>
+
+		<footer>
+			<span>--- MIT License ---</span>
+		</footer>
+	</body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+	<script src="js/textures.min.js" charset="utf-8"></script>
+	<script src="bundle.js" charset="utf-8"></script>
+</html>
