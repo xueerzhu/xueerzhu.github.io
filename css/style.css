@@ -172,8 +172,8 @@ pre {
 	margin-top: 5em;
 	margin-bottom: 0;
 	padding: 3em 0em 6em 0em;
-	background: #343434;
-	color: darkorange;
+	background: firebrick;
+	color: oldlace;
 	text-align: center;
 	font-size: 17px;
 }
@@ -192,6 +192,12 @@ pre {
 	margin-bottom: 2em;
 	font-style: italic;
 	font-weight: 300;
+}
+.getting-started h3 a {
+	color: #FBCBC1;
+}
+.getting-started h3 a:hover {
+	color: #666;
 }
 
 
@@ -233,9 +239,9 @@ pre {
 	font-size: 30px;
 }
 
-.usa h2 {
+.screenshot h2 {
 	padding-top: 2em;
-	color: #343434;
+	color: darkorange;
 	font-size: 30px;
 }
 
@@ -243,7 +249,7 @@ pre {
 	.categories h2 {
 		font-size: 20px;
 	}
-	.usa h2 {
+	.screenshot h2 {
 		font-size: 20px;
 	}
 }
@@ -261,12 +267,12 @@ footer {
 	margin-bottom: 2em;
 }
 
-.usa {
-	background: darkorange;
+.screenshot {
+	background:#343434;
 	text-align: center;
 }
 
-#usa {
+#screenshot {
 	width: 100%;
 	max-width: 960px;
 	margin-bottom: 5em;
