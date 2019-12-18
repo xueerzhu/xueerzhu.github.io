@@ -73,10 +73,10 @@ h3 a:hover {
 	color: darkorange;
 }
 
-section {
+/* section {
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
+} */
 
 section > h2 {
 	font-size: 20px;
