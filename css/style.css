@@ -73,11 +73,6 @@ h3 a:hover {
 	color: darkorange;
 }
 
-/* section {
-	margin-top: 20px;
-	margin-bottom: 20px;
-} */
-
 section > h2 {
 	font-size: 20px;
 	background: rgba(217,72,57,0);
@@ -276,4 +271,51 @@ footer {
 	width: 100%;
 	max-width: 960px;
 	margin-bottom: 5em;
+}
+
+.camera {
+	background:#010004;
+	text-align: center;
+}
+
+#camera {
+	height: 100%;
+	max-width: 960px;
+	max-height: 480px;
+	margin-bottom: 5em;
+	margin-top: 5em;
+}
+
+.render {
+	background:#EAEAEA;
+	text-align: center;
+}
+
+#render {
+	width: 100%;
+	max-width: 960px;
+	margin-bottom: 5em;
+}
+
+.render h2 {
+	padding-top: 2em;
+	color: #5A4573;
+	font-size: 30px;
+}
+
+.design {
+	background:#EAEAEA;
+	text-align: center;
+}
+
+#design {
+	width: 100%;
+	max-width: 960px;
+	margin-bottom: 5em;
+}
+
+.design h2 {
+	padding-top: 2em;
+	color: #5A4573;
+	font-size: 30px;
 }
