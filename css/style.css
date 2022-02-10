@@ -5,6 +5,7 @@
 
 html {
 	border-top: 5px solid #343434;
+	caret-color: rgba(0,0,0,0);
 }
 
 html, body {
@@ -142,12 +143,9 @@ pre {
 	}
 }
 
-.github {
-	margin: auto;
-	max-width: 120px;
-}
-
 .github span {
+	display: table;
+    margin: 0 auto;
 	padding: 0px 10px 0px 0px;
 }
 
@@ -318,4 +316,15 @@ footer {
 	padding-top: 2em;
 	color: #5A4573;
 	font-size: 30px;
+}
+
+.static {
+	position:absolute;
+	max-width: 660px;
+	background: white;
+}
+
+  
+.static:hover {
+	opacity:0;
 }
