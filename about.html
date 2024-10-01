@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xueer Zhu</title>
-    <link rel="shortcut icon" type="image/jpg" href="imgs/icon/favicon.ico"/>
-    <meta name="author" content="Xueer Zhu"/>
+    <link rel="shortcut icon" type="image/jpg" href="imgs/icon/favicon.ico" />
+    <meta name="author" content="Xueer Zhu" />
     <link href='//fonts.googleapis.com/css?family=Lato:300,300italic|Inconsolata' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,7 +14,8 @@
         body {
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
-            background-color: #F7F7F7; /* Set background color */
+            background-color: #F7F7F7;
+            text-align: center; /* Center the text on the page */
         }
         header {
             text-align: center;
@@ -30,47 +31,23 @@
         }
         h3 a.active {
             text-decoration: underline;
-            color: #0056b3; /* Hover and active color */
+            color: #0056b3;
         }
         h3 a:hover {
-            color: #0056b3; /* Hover color */
+            color: #0056b3;
         }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 1em;
+        .getting-started {
+            margin: 0 auto;
             padding: 1em;
-            margin-left: 8em; /* Adjust the left margin */
-            margin-right: 8em; /* Adjust the right margin */
+            max-width: 600px;
+            text-align: left; /* Left-adjust the text paragraph */
         }
-        @media (max-width: 1024px) {
-            .grid-container {
-                grid-template-columns: repeat(3, 1fr);
-            }
+        .icon-links {
+            margin-bottom: 1em;
         }
-        @media (max-width: 768px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
-        }
-        .project {
-            background: #f4f4f4;
-            padding: 1em;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .project h2.subtitle {
-            font-size: 1.3em;
-            margin: 0.5em 0;
-        }
-        .project span {
-            display: block;
-            margin-top: 0.5em;
-        }
-        .project img {
-            max-width: 100%;
-            border-radius: 8px;
+        .icon-links a {
+            margin: 0 0.5em;
+            color: #333;
         }
         footer {
             text-align: center;
@@ -89,19 +66,23 @@
         <a href="about.html">About</a>
     </h3>
 </header>
-
 <section class="getting-started">
+    <div class="icon-links">
+        <a href="https://www.linkedin.com/in/xueerzhu/" aria-label="LinkedIn">
+            <img src="imgs/icons/linkedin-icon.svg" alt="LinkedIn Icon" style="width:24px;height:24px">
+        </a>
+        <a href="https://github.com/xueerzhu" aria-label="GitHub">
+            <img src="imgs/icons/github-icon.svg" alt="GitHub Icon" style="width:24px;height:24px">
+        </a>
+    </div>
     <h2>Hi, I am Xueer (Shoe-Are)</h2>
     <br>
     <h3>
         I am a Software Engineer / Game Developer.<br><br>
         I enjoy building data driven system design and polished gameplay.<br>
-        I am currently actively seeking an engineering opportunity in user-facing game adjacent technologies.<br><br>
-        <a href="https://www.linkedin.com/in/xueerzhu/">LinkedIn</a><br><br>
-        <a href="https://github.com/xueerzhu">Github</a>
+        I am currently actively seeking an engineering opportunity in user-facing game adjacent technologies.
     </h3>
 </section>
-
 <footer>
     <span>Portfolio - 2024</span>
 </footer>
