@@ -109,6 +109,10 @@
             border-radius: 8px;
         }
 
+        .bold-text {
+            font-weight: bold;
+        }
+
         footer {
             text-align: center;
             padding: 2em 0;
@@ -261,7 +265,9 @@
         const body = document.body;
         toggleButton.addEventListener('click', function() {
             body.classList.toggle('dark-mode');
-            toggleButton.textContent = body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+            toggleButton.innerHTML = body.classList.contains('dark-mode')
+                ? '<span class="bold-text">☀️ Light Mode</span>'
+                : '<span class="bold-text">🌙 Dark Mode</span>';
         });
     });
 </script>
