@@ -14,7 +14,7 @@
         body {
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
-            background-color: #F7F7F7; /* Adjust the background color */
+            background-color: #F7F7F7; /* Set background color */
         }
         header {
             text-align: center;
@@ -34,6 +34,16 @@
             padding: 1em;
             margin-left: 2em; /* Adjust the left margin */
             margin-right: 2em; /* Adjust the right margin */
+        }
+        @media (max-width: 1024px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
         }
         .project {
             background: #f4f4f4;
