@@ -67,11 +67,11 @@ h3 {
 }
 
 h3 a {
-	color: firebrick;
+	color: #F6475F;
 }
 
 h3 a:hover {
-	color: darkorange;
+	color: #FF385C;
 }
 
 section > h2 {
@@ -151,11 +151,11 @@ pre {
 }
 
 .github a {
-	color: firebrick;
+	color: #F6475F;
 }
 
 .github a:hover {
-	color: darkorange;
+	color: #FF385C;
 }
 .github iframe {
 	position: relative;
@@ -166,7 +166,7 @@ pre {
 	margin-top: 5em;
 	margin-bottom: 0;
 	padding: 3em 0em 6em 0em;
-	background: firebrick;
+	background: #F6475F;
 	color: oldlace;
 	text-align: center;
 	font-size: 17px;
@@ -215,7 +215,7 @@ pre {
 }
 
 .categories {
-	background: firebrick;
+	background: #F6475F;
 	text-align: center;
 }
 
