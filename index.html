@@ -24,8 +24,17 @@
             font-size: 2.5em;
             margin: 0.5em 0;
         }
-        h3 a {
-            text-decoration: none;
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+        h3 a:hover, h3 a.active {
+            text-decoration: underline;
+            color: #0056b3; /* Hover and active color */
+        }
+        h3 a:hover {
+            text-decoration: underline;
+            color: #0056b3; /* Hover color */
         }
         .grid-container {
             display: grid;
@@ -76,7 +85,8 @@
 <header>
     <h1>Xueer Zhu</h1>
     <h3>
-        <a href="index.html">Coding</a> -
+        <a href="index.html">Side Projects</a> -
+        <a href="index.html">Professional Work</a> -
         <a href="about.html">About</a>
     </h3>
 </header>
