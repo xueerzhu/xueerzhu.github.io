@@ -19,14 +19,12 @@
             --footer-background: #333;
             --footer-text: #fff;
         }
-
         body {
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
             background-color: var(--background-color); /* Set background color */
             color: var(--text-color);
         }
-
         header {
             text-align: center;
             margin-bottom: 1em;
@@ -96,7 +94,6 @@
             background: var(--footer-background);
             color: var(--footer-text);
         }
-
         .dark-mode {
             --background-color: #2E2E2E;
             --text-color: #FFFFFF;
@@ -105,7 +102,6 @@
             --footer-background: #1c1c1c;
             --footer-text: #cccccc;
         }
-
         #darkModeToggle {
             position: absolute;
             top: 1em;
@@ -125,7 +121,7 @@
         <a href="professional.html">Professional Work</a> -
         <a href="about.html">About</a>
     </h3>
-    <button id="darkModeToggle">🌙</button>
+    <button id="darkModeToggle">Dark Mode</button>
 </header>
 <hr class="divider">
 <div class="grid-container">
@@ -215,15 +211,13 @@
 <footer>
     <span>Portfolio - 2024</span>
 </footer>
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const toggleButton = document.getElementById('darkModeToggle');
         const body = document.body;
-
         toggleButton.addEventListener('click', function() {
             body.classList.toggle('dark-mode');
-            toggleButton.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+            toggleButton.textContent = body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
         });
     });
 </script>
