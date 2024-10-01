@@ -16,7 +16,6 @@
             margin: 0;
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
-            background-color: #DDDDDD;
             display: flex;
             flex-direction: column;
         }
@@ -76,6 +75,10 @@
             border-top: 1px solid var(--divider-color);
             margin: 20px 0;
         }
+        /* New CSS for below-divider section */
+        .below-divider {
+            background-color: #DDDDDD;
+        }
         /* New CSS for links */
         a {
             text-decoration: none;
@@ -93,28 +96,30 @@
     </h3>
 </header>
 <hr class="divider">
-<section class="getting-started">
-    <div class="icon-links">
-        <a href="https://www.linkedin.com/in/xueerzhu/" aria-label="LinkedIn">
-            <img src="imgs/icon/linkedin.svg" alt="LinkedIn Icon">
-        </a>
-        <a href="https://github.com/xueerzhu" aria-label="GitHub">
-            <img src="imgs/icon/github.svg" alt="GitHub Icon">
-        </a>
-        <a href="https://snowcrashxz.itch.io/" aria-label="GitHub">
-            <img src="imgs/icon/itch-io.svg" alt="GitHub Icon">
-        </a>
-    </div>
-    <h2>Hi, I am Xueer (Shoe-Are)</h2>
-    <br>
-    <h3>
-        <p>I am a Software Engineer / Game Developer.</p>
-        <p>I enjoy building polished gameplay and client-facing features, with a strong passion for diving into data and system design.</p>
-        <p>I’m actively seeking an engineering opportunity in user-facing technologies within the gaming industry.</p>
-    </h3>
-</section>
-<footer>
-    <span>Portfolio - 2024</span>
-</footer>
+<div class="below-divider">
+    <section class="getting-started">
+        <div class="icon-links">
+            <a href="https://www.linkedin.com/in/xueerzhu/" aria-label="LinkedIn">
+                <img src="imgs/icon/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://github.com/xueerzhu" aria-label="GitHub">
+                <img src="imgs/icon/github.svg" alt="GitHub Icon">
+            </a>
+            <a href="https://snowcrashxz.itch.io/" aria-label="GitHub">
+                <img src="imgs/icon/itch-io.svg" alt="GitHub Icon">
+            </a>
+        </div>
+        <h2>Hi, I am Xueer (Shoe-Are)</h2>
+        <br>
+        <h3>
+            <p>I am a Software Engineer / Game Developer.</p>
+            <p>I enjoy building polished gameplay and client-facing features, with a strong passion for diving into data and system design.</p>
+            <p>I’m actively seeking an engineering opportunity in user-facing technologies within the gaming industry.</p>
+        </h3>
+    </section>
+    <footer>
+        <span>Portfolio - 2024</span>
+    </footer>
+</div>
 </body>
 </html>
