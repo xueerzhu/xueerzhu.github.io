@@ -235,7 +235,7 @@ pre {
 
 .screenshot h2 {
 	padding-top: 2em;
-	color: darkorange;
+	color: #F7F7F7;
 	font-size: 30px;
 }
 
@@ -250,7 +250,7 @@ pre {
 
 footer {
 	text-align: center;
-	background: darkorange;
+	background: #F7F7F7;
 	color: #343434;
 	font-size: 20px;
 	padding-bottom: 0px;
