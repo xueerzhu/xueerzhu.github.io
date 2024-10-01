@@ -50,6 +50,7 @@
             padding: 1em;
             width: 80%;
             max-width: 1200px;
+            margin: 0 auto; /* Center horizontally */
         }
         @media (max-width: 1024px) {
             .grid-container {
@@ -83,6 +84,9 @@
         .resume {
             text-align: center; /* Center text inside the section */
             flex: 1; /* Allow the main content to expand */
+            display: flex;
+            align-items: center; /* Center vertically */
+            justify-content: center; /* Center horizontally */
         }
         footer {
             text-align: center;
@@ -90,6 +94,7 @@
             background: #333;
             color: #fff;
             width: 100%;
+            margin-top: auto; /* Add this line */
         }
         .resume-section ul {
             list-style: none;
@@ -106,7 +111,9 @@
         }
         .below-divider {
             background-color: #EBEBEB;
-            flex: 1;
+            flex: 1; /* Allow this div to grow and occupy available space */
+            display: flex;
+            flex-direction: column;
         }
     </style>
 </head>
