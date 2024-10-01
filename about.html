@@ -14,6 +14,7 @@
         body {
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
+            background-color: #F7F7F7; /* Set background color */
         }
         header {
             text-align: center;
@@ -23,26 +24,60 @@
             font-size: 2.5em;
             margin: 0.5em 0;
         }
-        h2 {
-            font-size: 1.8em;
-            margin: 0.4em 0;
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 1em;
         }
-        h3 a {
-            text-decoration: none;
-        }
-        .getting-started {
-            text-align: center;
-            margin: 2em 0;
-        }
-        .getting-started h2, .getting-started h3 {
-            margin: 0.2em 0;
-        }
-        .getting-started a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        .getting-started a:hover {
+        h3 a:hover, h3 a.active {
             text-decoration: underline;
+            color: #0056b3; /* Hover and active color */
+        }
+        h3 a:hover {
+            text-decoration: underline;
+            color: #0056b3; /* Hover color */
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1em;
+            padding: 1em;
+            margin-left: 8em; /* Adjust the left margin */
+            margin-right: 8em; /* Adjust the right margin */
+        }
+        @media (max-width: 1024px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        .project {
+            background: #f4f4f4;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .project h2.subtitle {
+            font-size: 1.3em;
+            margin: 0.5em 0;
+        }
+        .project span {
+            display: block;
+            margin-top: 0.5em;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background: #333;
+            color: #fff;
         }
     </style>
 </head>
