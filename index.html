@@ -11,14 +11,26 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        :root {
+            --background-color: #F7F7F7;
+            --text-color: #000000;
+            --divider-color: #C2C2C2;
+            --project-background: #f4f4f4;
+            --footer-background: #333;
+            --footer-text: #fff;
+        }
+
         body {
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
-            background-color: #F7F7F7; /* Set background color */
+            background-color: var(--background-color); /* Set background color */
+            color: var(--text-color);
         }
+
         header {
             text-align: center;
             margin-bottom: 1em;
+            position: relative;
         }
         h1 {
             font-size: 2.5em;
@@ -38,7 +50,7 @@
         }
         .divider {
             border: 0;
-            border-top: 1px solid #C2C2C2;
+            border-top: 1px solid var(--divider-color);
             margin: 20px 0;
         }
         .grid-container {
@@ -60,7 +72,7 @@
             }
         }
         .project {
-            background: #f4f4f4;
+            background: var(--project-background);
             padding: 1em;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -81,8 +93,27 @@
         footer {
             text-align: center;
             padding: 2em 0;
-            background: #333;
-            color: #fff;
+            background: var(--footer-background);
+            color: var(--footer-text);
+        }
+
+        .dark-mode {
+            --background-color: #2E2E2E;
+            --text-color: #FFFFFF;
+            --divider-color: #555555;
+            --project-background: #3B3B3B;
+            --footer-background: #1c1c1c;
+            --footer-text: #cccccc;
+        }
+
+        #darkModeToggle {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            padding: 0.5em 1em;
+            background: none;
+            border: none;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -94,6 +125,7 @@
         <a href="professional.html">Professional Work</a> -
         <a href="about.html">About</a>
     </h3>
+    <button id="darkModeToggle">🌙</button>
 </header>
 <hr class="divider">
 <div class="grid-container">
@@ -183,5 +215,17 @@
 <footer>
     <span>Portfolio - 2024</span>
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', function() {
+            body.classList.toggle('dark-mode');
+            toggleButton.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+        });
+    });
+</script>
 </body>
 </html>
