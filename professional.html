@@ -15,6 +15,11 @@
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
             background-color: #F7F7F7; /* Set background color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
         }
         header {
             text-align: center;
@@ -37,15 +42,15 @@
         }
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 1em;
             padding: 1em;
-            margin-left: 8em; /* Adjust the left margin */
-            margin-right: 8em; /* Adjust the right margin */
+            width: 80%;
+            max-width: 1200px;
         }
         @media (max-width: 1024px) {
             .grid-container {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         @media (max-width: 768px) {
@@ -77,6 +82,7 @@
             padding: 2em 0;
             background: #333;
             color: #fff;
+            width: 100%;
         }
     </style>
 </head>
@@ -89,7 +95,6 @@
         <a href="about.html">About</a>
     </h3>
 </header>
-
 
 <section class="resume">
     <div class="grid-container">
