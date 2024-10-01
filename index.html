@@ -53,6 +53,11 @@
             color: #ff385c; /* Hover color */
         }
 
+        h3 a:not(:last-child)::after {
+            content: " · ";
+            color: #333; /* Optional: color for the middle dot */
+        }
+
         .divider {
             border: 0;
             border-top: 1px solid var(--divider-color);

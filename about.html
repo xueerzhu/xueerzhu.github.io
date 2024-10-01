@@ -42,6 +42,10 @@
         h3 a:hover {
             color: #0056b3;
         }
+        h3 a:not(:last-child)::after {
+            content: " · ";
+            color: #333; /* Optional: color for the middle dot */
+        }
         .getting-started {
             margin: 0 auto;
             padding: 1em;

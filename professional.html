@@ -39,6 +39,10 @@
         h3 a:hover {
             color: #0056b3; /* Hover color */
         }
+        h3 a:not(:last-child)::after {
+            content: " · ";
+            color: #333; /* Optional: color for the middle dot */
+        }
         .grid-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
