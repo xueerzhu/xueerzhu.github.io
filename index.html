@@ -18,74 +18,84 @@
             --project-background: #f4f4f4;
             --footer-background: #333;
             --footer-text: #fff;
+            --font-small: 1rem;
+            --font-medium: 1.2rem;
+            --font-large: 2.5rem;
         }
-
         body {
             font-family: 'Lato', sans-serif;
             line-height: 1.6;
             background-color: var(--background-color); /* Set background color */
             color: var(--text-color);
+            font-size: var(--font-small);
         }
-
         header {
             text-align: center;
             margin-bottom: 1em;
             position: relative;
         }
-
         h1 {
-            font-size: 2.5em;
+            font-size: var(--font-large);
             margin: 0.5em 0;
         }
-
         h3 {
-            font-size: 1.2em;
+            font-size: var(--font-medium);
             margin-bottom: 1em;
             color: #5e5e5e; /* active color */
         }
-
         h3 a.active {
             text-decoration: underline;
             color: #F6475F; /* active color */
         }
-
         h3 a:hover {
             color: #ff385c; /* Hover color */
         }
-
         h3 a:not(:last-child)::after {
             content: " · ";
             color: #333; /* Optional: color for the middle dot */
             margin: 0 10px; /* Adjust the spacing as needed */
         }
-
         .divider {
             border: 0;
             border-top: 1px solid var(--divider-color);
             margin: 20px 0;
         }
-
         .grid-container {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 1em;
             padding: 1em;
-            margin-left: 8em; /* Adjust the left margin */
-            margin-right: 8em; /* Adjust the right margin */
+            margin-left: 10%; /* Adjust the left margin */
+            margin-right: 10%; /* Adjust the right margin */
         }
-
         @media (max-width: 1600px) {
             .grid-container {
                 grid-template-columns: repeat(3, 1fr);
             }
+            h1 {
+                font-size: 2rem;
+            }
+            h3 {
+                font-size: 1rem;
+            }
+            body {
+                font-size: 0.875rem;
+            }
         }
-
         @media (max-width: 768px) {
             .grid-container {
                 grid-template-columns: 1fr;
             }
+            h1 {
+                font-size: 1.5rem;
+            }
+            h3 {
+                font-size: 0.9rem;
+            }
+            body {
+                font-size: 0.75rem;
+            }
         }
-
         .project {
             background: var(--project-background);
             padding: 1em;
@@ -93,33 +103,27 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-
         .project h2.subtitle {
             font-size: 1.3em;
             margin: 0.5em 0;
         }
-
         .project span {
             display: block;
             margin-top: 0.5em;
         }
-
         .project img {
             max-width: 100%;
             border-radius: 8px;
         }
-
         .bold-text {
             font-weight: bold;
         }
-
         footer {
             text-align: center;
             padding: 2em 0;
             background: var(--footer-background);
             color: var(--footer-text);
         }
-
         .dark-mode {
             --background-color: #2E2E2E;
             --text-color: #FFFFFF;
@@ -128,7 +132,6 @@
             --footer-background: #1c1c1c;
             --footer-text: #cccccc;
         }
-
         #darkModeToggle {
             position: absolute;
             top: calc(50% - 0.5em); /* Vertically align with the page links */
@@ -139,7 +142,6 @@
             cursor: pointer;
             transform: translateY(-50%);
         }
-
         a {
             text-decoration: none;
             color: #F6475F;
@@ -150,8 +152,8 @@
 <header>
     <h1>Xueer Zhu</h1>
     <h3>
-        <a href="index.html">Side Projects</a> 
-        <a href="work.html">Professional Work</a> 
+        <a href="index.html">Side Projects</a>
+        <a href="work.html">Professional Work</a>
         <a href="about.html">About</a>
     </h3>
     <button id="darkModeToggle">Dark Mode</button>
@@ -226,7 +228,7 @@
         </section>
         <section class="github">
             <span>- JavaScript -</span>
-            <span>View source code on <a href="https://github.com/xueerzhu/Astar-search-visualization">Github</a></span>
+            <span>View on <a href="https://github.com/xueerzhu/Astar-search-visualization">Github</a></span>
             <span>Play on <a href="https://astar-visualization.glitch.me">Glitch</a></span>
         </section>
     </div>
